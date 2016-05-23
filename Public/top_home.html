@@ -1,0 +1,26 @@
+<!-- navbar -->
+<div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+        <button type="button" class="btn btn-navbar visible-phone" id="menu-toggler">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="index.html"><img src="<{$Think.const.ROOT_IMG_PATH}>/logo.png" /></a>
+
+        <ul class="nav pull-right">                
+            <li class="dropdown">
+                <a class="dropdown-toggle hidden-phone">
+                    <{$Think.session.user_name}>
+                </a>
+            </li>
+            <li class="settings hidden-phone">
+                <a href="<{:U('Home/Manage/logout')}>" role="button">
+                    退出&nbsp;<i class="icon-share-alt"></i>
+                </a>
+            </li>
+        </ul>            
+    </div>
+</div>
+<!-- end navbar -->

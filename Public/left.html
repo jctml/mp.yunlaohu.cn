@@ -1,0 +1,65 @@
+<!-- sidebar -->
+    <div id="sidebar-nav">
+        <ul id="dashboard-menu">
+            <li class="active">
+                <div class="pointer">
+                    <div class="arrow"></div>
+                    <div class="arrow_border"></div>
+                </div>
+                <a href="1.html">
+                    <i class="icon-home"></i>
+                    <span>首页</span>
+                </a>
+            </li>            
+            <li>
+                <a class="dropdown-toggle" href="chart-showcase.html">
+                    <i class="icon-calendar-empty"></i>
+                    <span>商户管理</span>
+                    <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="<{:U('Index/Stores_add')}>">添加商户</a></li>
+                    <li><a href="<{:U('Index/Stores_list')}>">商户列表</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="dropdown-toggle" href="#">
+                    <i class="icon-edit"></i>
+                    <span>代理商</span>
+                    <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="<{:U('Index/Agent_add')}>">代理商加盟</a></li>
+                    <li><a href="<{:U('Index/Agent_list')}>">代理商列表</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="dropdown-toggle" href="#">
+                    <i class="icon-group"></i>
+                    <span>员工管理</span>
+                    <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="<{:U('Index/Staff_add')}>">添加员工</a></li>
+                    <li><a href="<{:U('Index/Staff_list')}>">员工列表</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <a class="dropdown-toggle ui-elements" href="#">
+                    <i class="icon-code-fork"></i>
+                    <span>交易管理</span>
+                    <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <!--<li><a href="<{:U('index.php/Orderquery/index')}>">交易订单</a></li>-->
+                    <li><a href="http://pay.yunlaohu.cn/index.php/Orderquery/index">交易订单</a></li>
+                    <!--<li><a href="<{:U('Index/Refund_apply')}>">申请退款</a></li>-->
+                    <li><a href="http://pay.yunlaohu.cn/index.php/Refund/refund">申请退款</a></li>
+                    <!--<li><a href="<{:U('Index/Refund_list')}>">退款查询</a></li>-->
+                    <li><a href="http://pay.yunlaohu.cn/index.php/Refund/query">退款查询</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
