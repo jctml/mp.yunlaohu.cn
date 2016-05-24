@@ -4,7 +4,7 @@ namespace Home\Controller;
 
 use Think\Controller;
 
-class MicropayController extends Controller{
+class JsapiController extends Controller{
 
     public function index(){
 

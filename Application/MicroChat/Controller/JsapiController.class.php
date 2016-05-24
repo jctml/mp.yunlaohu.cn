@@ -1,10 +1,10 @@
 <?php
 
-namespace Home\Controller;
+namespace MicroChat\Controller;
 
 use Think\Controller;
 
-class MicropayController extends Controller{
+class JsapiController extends Controller{
 
     public function index(){
 

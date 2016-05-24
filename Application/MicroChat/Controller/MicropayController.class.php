@@ -1,6 +1,6 @@
 <?php
 
-namespace Home\Controller;
+namespace MicroChat\Controller;
 
 use Think\Controller;
 
